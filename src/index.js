@@ -1,7 +1,8 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { Provider, Button } from "reakit"
-import theme from "reakit-theme-default"
+// @flow
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider, Button } from 'reakit'
+import theme from 'reakit-theme-default'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -19,4 +20,4 @@ const App = () => (
   </Provider>
 )
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById('root'))

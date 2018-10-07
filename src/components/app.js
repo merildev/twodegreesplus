@@ -1,5 +1,12 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider, Button } from 'reakit'
+import theme from 'reakit-theme-default'
 
-const App = () => <div>Hello world!</div>
+const App = () => (
+  <Provider theme={theme}>
+    <Button>Button</Button>
+  </Provider>
+)
 
-export default App
+ReactDOM.render(<App />, document.getElementById('root'))
