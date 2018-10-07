@@ -1,7 +1,11 @@
 {
   "name": "twodegreesplus",
+  "author": {
+    "name": "merildev",
+    "url": "https://github.com/merildev"
+  },
+  "license": "AGPL-3.0-or-later",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,6 +29,10 @@
       "Firefox ESR",
       "not ie < 11"
     ]
+  },
+  "homepage" : "http://merildev.github.io/twodegreesplus",
+  "bugs": {
+    "url": "https://github.com/merildev/twodegreesplus/issues"
   },
   "dependencies": {
     "polished": "2.2.0",
