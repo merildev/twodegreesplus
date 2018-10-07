@@ -27,16 +27,17 @@
     ]
   },
   "dependencies": {
+    "polished": "2.2.0",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-scripts": "2.0.4",
-    "reakit": "^0.15.5",
-    "reakit-theme-default": "^0.1.6",
-    "styled-components": "^4.0.0-beta.10"
+    "reakit": "0.15.5",
+    "reakit-theme-default": "0.1.6",
+    "styled-components": "4.0.0-beta.10"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.2.0",
-    "@commitlint/config-conventional": "^7.1.2",
+    "@commitlint/cli": "7.2.0",
+    "@commitlint/config-conventional": "7.1.2",
     "eslint-config-prettier": "3.1.0",
     "eslint-config-standard": "12.0.0",
     "eslint-plugin-babel": "5.2.1",
@@ -45,13 +46,15 @@
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-react": "7.11.1",
     "flow-bin": "0.81.0",
-    "husky": "^1.1.1",
-    "lint-staged": "^7.3.0",
-    "prettier": "^1.14.3",
+    "husky": "1.1.1",
+    "lint-staged": "7.3.0",
+    "prettier": "1.14.3",
     "standard": "12.0.1",
     "stylelint": "9.6.0",
+    "stylelint-config-recommended": "2.1.0",
     "stylelint-config-standard": "18.2.0",
-    "stylelint-order": "1.0.0"
+    "stylelint-config-styled-components": "0.1.1",
+    "stylelint-processor-styled-components": "1.5.0"
   },
   "lint-staged": {
     "src/**/*.js": [
