@@ -1,5 +1,5 @@
+// @flow
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { Provider, Button } from 'reakit'
 import theme from 'reakit-theme-default'
 
@@ -9,4 +9,4 @@ const App = () => (
   </Provider>
 )
 
-ReactDOM.render(<App />, document.getElementById('root'))
+export default App

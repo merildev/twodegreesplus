@@ -20,4 +20,8 @@ const App = () => (
   </Provider>
 )
 
-ReactDOM.render(<App />, document.getElementById('root'))
+const rootContainer = document.getElementById('root')
+
+if (rootContainer) {
+  ReactDOM.render(<App />, rootContainer)
+}
