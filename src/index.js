@@ -1,8 +1,22 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react"
+import ReactDOM from "react-dom"
+import { Provider, Button } from "reakit"
+import theme from "reakit-theme-default"
+import { createGlobalStyle } from 'styled-components'
 
-import App from './components/app'
+const GlobalStyle = createGlobalStyle`
+  html {
+    font-family: 'Krub', sans-serif;
+  }
+`
 
-const rootNode = document.getElementById('root')
+const App = () => (
+  <Provider theme={theme}>
+    <>
+      <Button>Hello</Button>
+      <GlobalStyle />
+    </>
+  </Provider>
+)
 
-ReactDOM.render(<App />, rootNode)
+ReactDOM.render(<App />, document.getElementById("root"))
