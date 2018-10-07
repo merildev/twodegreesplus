@@ -15,7 +15,9 @@
     "lint:css": "stylelint './src/**/*.js'",
     "lint:js": "eslint 'src/*/**' --max-warnings=0",
     "lint:fix": "eslint 'src/*/**' --fix",
-    "flow:check": "flow check"
+    "flow:check": "flow check",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "development": [
@@ -30,7 +32,7 @@
       "not ie < 11"
     ]
   },
-  "homepage" : "http://merildev.github.io/twodegreesplus",
+  "homepage": "http://merildev.github.io/twodegreesplus",
   "bugs": {
     "url": "https://github.com/merildev/twodegreesplus/issues"
   },
@@ -54,6 +56,7 @@
     "eslint-plugin-prettier": "3.0.0",
     "eslint-plugin-react": "7.11.1",
     "flow-bin": "0.81.0",
+    "gh-pages": "^2.0.1",
     "husky": "1.1.1",
     "lint-staged": "7.3.0",
     "prettier": "1.14.3",
