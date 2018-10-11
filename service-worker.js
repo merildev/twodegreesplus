@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/twodegreesplus/precache-manifest.53043a2fdb8a34254391c46242bd003e.js"
+  "/twodegreesplus/precache-manifest.4f8aacef2054342f3e3e870da0ad1387.js"
 );
 
 workbox.clientsClaim();
